@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papu's Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navigation">
+        <nav class="nav-container">
+            <a href="#" class="nav-logo"><img src="./images/icons8-baby-bottle-80.png" alt="Logo de la empresa de bebe" class="nav-logo"></a>
+            <div class="nav-table">
+                <div class="nav-search">
+                    <form class="nav-form"action="">
+                        <label for="Search"></label>
+                        <input id="search-bar"class="search-bar" type="text" placeholder="Buscar" value="">
+                        <img  type = "button" src="./images/search.svg" alt="Lupa_para_búsqueda">
+                    </form>
+                </div>
+                <table id="header">
+                    <ul class="nav">
+                        <li><a href=""></a></li>
+                            <ul>
+                                <li><a href="">Recien Nacidos</a></li>
+                                <li><a href="">0-12 meses</a></li>
+                                <li><a href="">1 - 2 Años</a></li>
+                                <li><a href="">2 - 4 Años</a></li>
+                            </ul>
+                        <li><a href="">Contactanos</a></li>
+                    </ul>
+                </table>
+            </div>
+            <div class="carshopping">
+                <i class="fa badge fa-lg" value="0"><a href="./pago_page/pago.html">&#xf07a;</a></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main">
+        <div class="product">
+            <h1 class="product-title"></h1>
+            <div class="shop-product">
+                <h2 class="shop-product-title">Iphone</h2>
+                <img src="./images/producto.jpeg" alt="" class="shopProduct-image">
+                <p class="product-description">Distribuidor autorizado Apple. Devoluciones: solo productos dañados, inoperantes al primer uso o sin abrir en caja original sellada</p>
+                <p class="shopProduct-Price">$300</p>
+                <label for="add-product">Agregar</label>
+                <input id="add-product" type="number" class="add-product" min="0" value="0">
+                <button class ="shopProduct-Add" type="button">Add to Cart</button>
+            </div>
+        </div>
+        <div class="resumeShop"></div>
+    </section>
+
+    <footer class="footer">
+        <section>
+            <div class="socialMedia">
+                <table>
+                    <ul>
+                        <li><a href="http://instagram.com"></a><img src="./images/icons8-instagram-30.png" alt="Logo de Instagram"></li>
+                        <li><a href="http://facebook.com"></a><img src="./images/icons8-facebook-30.png" alt="Logo de Facebook"></li>
+                        <li><a href="http://twitter.com"></a><img src="./images/icons8-twitter-30.png" alt="Logo de Twitter"></li>
+                    </ul>
+                </table>
+            </div>
+        </section>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

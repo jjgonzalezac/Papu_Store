@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* header */
+
+.nav-container{
+    background-color: blue;
+    width: 100%;
+    height: 87px;
+    border-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px
+}
+
+.nav-table{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    gap: 10px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.nav-search{
+    display: flex;
+}
+
+.nav-form{
+    display: flex;
+}
+
+.button-search{
+    background-color: black;
+}
+
+.nav li a{
+    display: block;
+}
+
+.nav > li {
+    float: left;
+}
+
+
+
+
+.carshopping-value:after{
+    content:attr(value);
+    font-size:12px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+
+.badge:after{
+    content:attr(value);
+    font-size:12px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+
+/* CANVA CENTRAL */
+.shop-product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shop-product-title{
+    font-size: 50px;
+    color:blue;
+    border:50px;
+}
+
+.shopProduct-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    border-right: 120px;
+}
+
+li,ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 120px;
+    list-style: none;
+    color: #0000
+}
+
+
+
+
+
+
